@@ -1,5 +1,7 @@
 {
   "name": "@sudoo/mascot",
+  "author": "WMXPY",
+  "license": "MIT",
   "dependencies": {
     "@sudoo/bark": "^2.3.0",
     "@sudoo/io": "^0.1.0",
