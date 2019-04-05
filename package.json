@@ -1,0 +1,30 @@
+{
+  "name": "@sudoo/mascot",
+  "dependencies": {
+    "@sudoo/bark": "^2.3.0",
+    "@sudoo/io": "^0.1.0",
+    "connor": "^2.4.0"
+  },
+  "devDependencies": {
+    "@sudoo/mock": "^1.2.0",
+    "@sudoo/triforce": "^1.5.0"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "require": [
+      "./test/tshook.js"
+    ],
+    "sourceMap": true
+  }
+}

@@ -1,0 +1,21 @@
+language: 
+ - node_js
+
+node_js:
+ - '8'
+ - '9'
+ - '10'
+
+install:
+ - make install
+ - npm install codecov nyc -g
+
+services:
+ - docker
+
+script:
+ - make build
+ - nyc mocha
+
+after_success:
+ - codecov -f ./coverage/coverage-final.json

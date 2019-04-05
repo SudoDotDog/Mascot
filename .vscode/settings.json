@@ -1,0 +1,13 @@
+{
+    "cSpell.words": [
+        "barksh",
+        "codecov",
+        "connor",
+        "sudoo",
+        "triforce",
+        "tshook"
+    ],
+    "tslint.configFile": "typescript/tslint.json",
+    "javascript.preferences.importModuleSpecifier": "auto",
+    "typescript.preferences.importModuleSpecifier": "auto"
+}
